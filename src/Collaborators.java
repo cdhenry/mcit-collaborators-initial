@@ -11,6 +11,7 @@ public class Collaborators {
 
 	public static void main(String[] args) {
 		Collaborators collaborators = new Collaborators("Chris", "Wendy");
+		System.out.println("These are the collaborators: ");
 		for(String name: collaborators.names) {
 			System.out.println(name.toUpperCase());
 		}
